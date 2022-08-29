@@ -1,0 +1,32 @@
+body {
+    background-color: #0099ff;
+  }
+  
+  .logincontainer {
+    margin: 6rem auto;
+    background-color: white;
+    padding: 16px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+  }
+  .logincontainer button {
+    background-color: #0099ff;
+  }
+.logincontainer i{
+  align-items: center;
+  justify-content: center;
+  margin-left: 45%;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    background-color: #f2f2f2;
+    border: 1px solid #dedede;
+  }
+  
+  @media screen and (max-width: 570px) {
+    .logincontainer {
+      width: 85%;
+    }
+  }
