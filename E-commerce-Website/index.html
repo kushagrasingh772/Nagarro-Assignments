@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Kushagra-Store - E-commerce</title>
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <!-- <a href="index.html"><img src="images/logologo.jpeg" width="175px"></a> -->
+                    </div>
+                    <nav>
+                        <ul id="menuitems">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-2">
+                            <h1>
+                                Get Your Workout<br> A New Style!
+                            </h1>
+                            <p>
+                                Trends come and go, and style evolves. <br>If you're going to do something, do it with
+                                style!
+                            </p>
+                            <a href="" class="btn">Explore it! &#10170;</a>
+                        </div>
+                        <div class="col-2">
+                            <img src="images/vk.jpg" style="border-radius: 215px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----feature category------>
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/category-1.jpg" alt="">
+                    </div>
+                    <div class="col-3"><img src="images/category-2.jpg" alt=""></div>
+                    <div class="col-3"><img src="images/category-3.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----feature-products---- -->
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product-details.html"><img src="images/product-1.jpg"></a>
+                    <a href="product-details.html">
+                        <h4>Red Printed Tshirt</h4>
+                    </a>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/ball.jpg">
+                    <h4>Leather ball</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/bat.jpg">
+                    <h4>Bat</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+
+                    <p>$200.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-4.jpg">
+                    <h4>Black Printed Tshirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$150.00</p>
+                </div>
+            </div>
+            <h2 class="title">Cricket</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/pad.jfif">
+                    <h4>Cricket Pad</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/helmet.jpg">
+                    <h4>Helmet</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$20.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-7.jpg">
+                    <h4>Sports Socks</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-8.jpg">
+                    <h4>Sports Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$300.00</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/net.jpg">
+                    <h4>Cricket Practice Net</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$300.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-10.jpg">
+                    <h4>Sports Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$75.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/stud.jpg">
+                    <h4>Football Shoes</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+
+                    <p>$50.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/gloves.jpg">
+                    <h4>Cricket Gloves</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+
+                    <p>$80.00</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ---offer--- -->
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/exclusive.png" class="offer-img">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively Available on Store</p>
+                        <h1>Smart Band 3</h1>
+                        <small>The Mi Smart band 3 features a 39.9% larger(than Mi Band 2) AMOLED color
+                            full-touch displaywith adjustable brightness, so everything is clear as can be.
+                        </small>
+                        <a href="" class="btn">Buy Now &#10170;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---testimonial---- -->
+        <div class="testimonial">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>
+                            "It is the duty of the selection committee to select the players and appoint the captain. BCCI does not play any role in the selection process. The statements given by Virat in the press conference today were a bit shocking. Things shouldn't have gone wrong the way they did,"
+
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="images/mithali.jpg">
+                        <h3>Mithali Raj</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>
+                            Extremely saddened by the news of the tragic passing of Rudi Koertzen. My deepest sympathy goes out to his family and friends. He was a great umpire and a better person. I always enjoyed sharing the field with him.
+
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="images/ricky.jpeg">
+                        <h3>Ricky Ponting</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>
+                            “Happy with Bollywood’s innovative idea of promoting films at cricket venues. I think cricket and cinema are like religions in our country. So, it’s nice to get the two together and hope this combination works.“#MENTALHEALTHMATTERS””
+
+                        </p>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <img src="images/dp.jpeg">
+                        <h3>Deepika Padukone</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -----brands---- -->
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/logo-coca-cola.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-godrej.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-oppo.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-paypal.png">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/logo-philips.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ---footer---- -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Download App for Android and iOS</p>
+                        <div class="app-logo">
+                            <img src="images/play-store.png">
+                            <img src="images/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/logologo.jpeg">
+                        <p>We are our own work of Art.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>CReturn Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Vinstagram</li>
+                            <li>Kwitter</li>
+                            <li>FYoutube</li>
+                            <li>Github</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <hr>
+                <p class="Copyright">Copyright 2022 - Kushagra Singh</p>
+            </div>
+        </div>
+        <!-- --js for togglemenu-- -->
+        <script src="ind.js"></script>
+
+    </body>
+
+</html>
